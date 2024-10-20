@@ -3783,3 +3783,30 @@ input, select, textarea {
 			}
 
 		}
+		/* Custom styles for bulleted lists */
+.bulleted-list {
+    list-style-type: disc;
+    padding-left: 1.5em;
+}
+
+.bulleted-list li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.bulleted-list li strong {
+    font-weight: bold;
+    color: #2e4053; /* Customize the color as needed */
+}
+
+/* For hover effects on links inside the bullet points */
+.bulleted-list li a {
+    text-decoration: none;
+    color: #8cc9f0; /* Customize the color as needed */
+}
+
+.bulleted-list li a:hover {
+    text-decoration: underline;
+    color: #ffffff; /* Customize the hover color */
+}
